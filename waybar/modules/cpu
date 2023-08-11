@@ -1,0 +1,8 @@
+// https://github.com/Alexays/Waybar/wiki/Module:-CPU
+{
+    "cpu": {
+        "interval": 1,
+        "format": "{usage}% ",
+        "tooltip": true
+    }
+}

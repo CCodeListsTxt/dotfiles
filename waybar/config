@@ -1,0 +1,40 @@
+// wiki：https://github.com/Alexays/Waybar/wiki/Configuration
+{
+    // 显示在窗口上层
+    "layer": "top",
+    // 显示在上方
+    "position": "top",
+    // 高度
+    "height": 40,
+    // 相邻组件的距离
+    "spacing": 10,
+    // 左中右部署的组件
+    "modules-left": [
+        "wlr/workspaces"
+    ],
+    "modules-center": [
+        "hyprland/window"
+    ],
+    "modules-right": [
+        "network",
+        "cpu",
+        "memory",
+        "backlight",
+        "pulseaudio",
+        "battery",
+        "clock"
+    ],
+    //##################################################################
+    // 组件配置
+    //##################################################################
+    "include": [
+        "~/.config/waybar/modules/workspaces",
+        "~/.config/waybar/modules/network",
+        "~/.config/waybar/modules/cpu",
+        "~/.config/waybar/modules/memory",
+        "~/.config/waybar/modules/backlight",
+        "~/.config/waybar/modules/pulseaudio",
+        "~/.config/waybar/modules/battery",
+        "~/.config/waybar/modules/clock"
+    ]
+}

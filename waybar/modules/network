@@ -1,0 +1,19 @@
+// https://github.com/Alexays/Waybar/wiki/Module:-Network
+{
+    "network": {
+
+        "interval": 1,
+
+        "format-wifi": "{bandwidthDownBytes}  {bandwidthUpBytes} ",
+
+        "format-ethernet": "{ipaddr}/{cidr} ",
+        
+        "tooltip-format": "{ifname}: {ipaddr}/{cidr}",
+        
+        "format-linked": "{ifname} (No IP) 󱚼",
+        
+        "format-disconnected": "no connect 󰖪",
+        
+        "format-alt": "{essid} ({signalStrength}%) "
+    }
+}

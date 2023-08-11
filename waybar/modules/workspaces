@@ -1,0 +1,17 @@
+{
+    "wlr/workspaces": {
+        "format": "{icon}",
+        // 工作区图标
+        "format-icons": {
+            "1": "  ",
+            "2": " 󰊯 ",
+            "3": " 󱋊 "
+        },
+        // 始终显示工作区图标
+        "persistent_workspaces": {
+            "1": [],
+            "2": [],
+            "3": []
+        }
+    }
+}

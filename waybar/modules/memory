@@ -1,0 +1,9 @@
+// https://github.com/Alexays/Waybar/wiki/Module:-Memory
+{
+    "memory": {
+        "interval": 1,
+        "format": "{used}G ",
+        "tooltip":true,
+        "tooltip-format":"{percentage}%used of {total}GiB"
+    }
+}

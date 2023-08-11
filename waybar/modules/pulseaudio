@@ -1,0 +1,19 @@
+// https://github.com/Alexays/Waybar/wiki/Module:-PulseAudio
+{
+    "pulseaudio": {
+        "format": "{volume}% {icon}",
+        "format-bluetooth": "{volume}% {icon}󰂯",
+        "format-muted": "󰖁",
+        "format-icons": {
+            "headphone": "󰋋",
+            "headset": "󰋎",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", ""]
+        },
+        "scroll-step": 5,
+        "on-click": "pavucontrol",
+        "ignored-sinks": ["Easy Effects Sink"]
+    }
+}

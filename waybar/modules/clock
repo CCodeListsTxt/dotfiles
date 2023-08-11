@@ -1,0 +1,9 @@
+// https://github.com/Alexays/Waybar/wiki/Module:-Clock
+{
+    "clock": {
+        "interval": 1,
+        "tooltip": true,
+        "tooltip-format": "{:%Ec}",
+        "format-alt": "{:%Ec}"
+    }
+}
