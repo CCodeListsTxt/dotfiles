@@ -1,14 +1,6 @@
 {
     "backlight": {
-        "format": "{percent}% {icon}",
-        "scroll-step": 5,
-        "format-icons": [
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-        ]
+        "format": "{percent}% ",
+        "scroll-step": 5
     }
 }
