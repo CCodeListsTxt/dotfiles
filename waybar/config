@@ -29,6 +29,7 @@
     //##################################################################
     "include": [
         "~/.config/waybar/modules/workspaces",
+        "~/.config/waybar/modules/window",
         "~/.config/waybar/modules/network",
         "~/.config/waybar/modules/cpu",
         "~/.config/waybar/modules/memory",

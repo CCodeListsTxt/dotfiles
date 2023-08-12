@@ -188,11 +188,8 @@ mark {
 
 #write+p,
 #write blockquote p {
-    font-size: 1.1rem;
-    padding-top: .2rem;
-    padding-bottom: .2rem;
-    margin: 0;
-    line-height: 1.8rem;
+    font-size: 1rem;
+    margin: 1rem 0;
     color: var(--text-color);
 }
 
@@ -593,11 +590,13 @@ pre.md-fences-advanced.md-focus .md-fences-adv-panel {
  */
 
 #outline-content::-webkit-scrollbar {
-    width: .5rem;
+    height: 0;
+    width: 0;
 }
 
 #file-library::-webkit-scrollbar {
-    width: .5rem;
+    height: 0;
+    width: 0;
 }
 
 ::-webkit-scrollbar-track {
@@ -610,7 +609,8 @@ pre.md-fences-advanced.md-focus .md-fences-adv-panel {
 }
 
 ::-webkit-scrollbar {
-    width: 1rem;
+    height: 0px;
+    width: 0px;
 }
 
 /* 
@@ -646,8 +646,11 @@ pre.md-fences-advanced.md-focus .md-fences-adv-panel {
     color: #4f5467;
     border-radius: 10px;
     background-color: var(--block-bg-color);
-    /* border: 1px solid #eef2f5;*/
     line-height: 1.6rem;
+}
+
+.CodeMirror-gutter{
+    background-color: var(--bg-color);
 }
 
 .CodeMirror-gutters {
@@ -657,7 +660,7 @@ pre.md-fences-advanced.md-focus .md-fences-adv-panel {
 }
 
 pre.CodeMirror-line {
-    padding: 0 1.2rem;
+    padding: 0 .4rem;
 }
 
 .CodeMirror-linenumber {

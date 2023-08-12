@@ -25,7 +25,6 @@ window#waybar.chromium {
 }
 
 
-/* 工作区相关 */
 #workspaces button {
     padding: 0 10px;
     margin: 0 1px;
@@ -73,6 +72,10 @@ window#waybar.chromium {
     color: #000000;
     border-radius: 10px;
     border: 2px solid black;
+}
+
+#window{
+    font-family: "Source Han Sans CN";
 }
 
 #window,
