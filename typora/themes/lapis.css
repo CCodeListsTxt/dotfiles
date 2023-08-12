@@ -532,7 +532,8 @@ hr {
 
 .file-node-content {
     color: var(--primary-color);
-    line-height: 1.6rem;
+    font-size: 1rem;
+    line-height: 1.4rem;
 }
 
 span.file-node-title-name-part {
