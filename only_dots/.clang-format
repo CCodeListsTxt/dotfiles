@@ -1,4 +1,23 @@
 BasedOnStyle: Google
+
+# 缩进距离
 IndentWidth: 4
+
+# 最大行限制
 ColumnLimit: 0
+
+# 对齐注释
 AlignTrailingComments: true
+
+# 连续赋值时，对齐所有等号
+AlignConsecutiveAssignments:	true
+
+# 连续声明时，对齐所有声明的变量名
+AlignConsecutiveDeclarations:	true
+
+# tamplate后换行
+AlwaysBreakTemplateDeclarations: true
+
+# 关闭排序头文件
+SortIncludes: false
+
